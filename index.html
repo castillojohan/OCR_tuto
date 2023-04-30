@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Photopgrahie - Robbie Lens</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header class="entete">
+            <nav>
+                <img src="media/logo.png">
+                <a href="index.html">Acceuil</a>
+                <a href="media/a_propos.html">A Propos</a>
+                <a href="media/portofolio.html">Portfolio</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container introduction">
+                <div>
+                    <h1>Robbie Lens Photograhe</h1>
+                    <p class="descriptif">
+                        Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
+                        plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                        qui m’anime : capturer l’essence de chaque instant.
+                    </p>
+                    <a href="#anchor_cta" class="contact">UN PROJET ? ECRIVEZ-MOI</a>
+                </div>
+
+                <div>
+                    <img src="media/robbie-lens.png" alt="Robbie Lens Profil">     
+                </div>
+            </section>
+
+            <section class="gallerie-photos"> 
+                <div class="photos">
+                    <h2 class="center">Mes Derniers Ajout</h2>
+                    <img src="media/element-1.png">
+                    <img src="media/element-2.png">
+                    <img src="media/element-3.png">
+                    <img src="media/element-4.png">
+                    <img src="media/element-5.png">
+                    <img src="media/element-6.png">
+                </div>
+            </section>
+
+            <section class="contact_me">
+                <form method="get" action="">
+                    <fieldset id="anchor_cta">
+                        <legend>Un Projet ? C'est par ici que cela ce passe</legend>
+                        <label for="name">Nom:</label>
+                        <input type="text" id="name" name="name" required minlength="4" maxlength="20" size="10">
+                        <label for="surname">Prenom:</label>
+                        <input type="text" id="surname" name="surname" required minlength="4" maxlength="20" size="10">
+                    
+                        <label for="phone">N° de Telephone:</label>
+                        <input type="tel" id="phone" name="phone" minlength="4" maxlength="50" size="20">
+                        <label for="mail">Adresse Mail:</label>
+                        <input type="email" id="mail" name="mail" required minlength="4" maxlength="20" size="20">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="votre_projet">Dites moi tout sur votre projet :</label>
+                        <textarea name="votre_projet" id="votre_projet" rows="5" cols="100"></textarea>
+                    </fieldset>    
+                </form>
+            </section>
+        </main>
+
+
+
+        <footer>
+            <img src="media/logo.png" alt="Logo Robbie Lens" >
+            <a class="link-to" target="_blank" href="https://twitter.com/">
+                <img class="link-to" src="media/twitter.png" alt="Logo Twitter" >
+            </a>
+            <a class="link-to" target="_blank" href="https://www.instagram.com/">
+                <img src="media/instagram.png" alt="Logo Instagram" >
+            </a>
+        </footer>
+
+
+    </body>
+
+</html>
