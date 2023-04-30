@@ -25,25 +25,49 @@ nav a{
 .gallerie-photos{
     color: black;
     width:100%;
-    height:800px;
+    height:100%;
     background-color: white;
     display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
 }
+
 .gallerie-photos h2{
     color: black;
-    width: 1000px;
-    height: 80px;
     font-family: 'Montserrat', sans-serif;
-
 }
+.center h2{
+    width: 100%;
+
+    
+}
+
+
 .photos{
-    margin-top: 150px;
-    width: 80%;
+    width: 55%;
     flex-wrap: wrap;
     flex-direction: row;
+    align-content: space-around;
+    margin: auto;
+}
+.contact_me{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-content: space-between;
-
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+legend{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+fieldset{
+    color:white;
+    padding: 20px;
+}
+label{
+    padding:10px;
+    margin-left: 20px;
 }
 
 a{
